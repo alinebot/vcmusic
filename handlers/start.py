@@ -12,13 +12,13 @@ async def start(_, message: Message):
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMuSicPlayBot?startgroup=true")
+            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/Denvilmusicbot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
-            InlineKeyboardButton("Channel 📣", url="https://t.me/GroupMusicXNews")
+            InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotEnjoy_group"),
+            InlineKeyboardButton("Channel 📣", url="https://t.me/Anie_news")
             ],[
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07"),
-            InlineKeyboardButton("Credits ❤", url="https://telegra.ph/Group-Music-X-Bot-05-17")
+            InlineKeyboardButton("Credits ❤", url="https://t.me/XDENVIL")
             ]]
         ),
         disable_web_page_preview=True
@@ -30,7 +30,7 @@ async def gstart(_, message: Message):
           text="**Music Bot Is Online ✅**",
           reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotEnjoy_group")
               ]]
           )
       )
@@ -69,7 +69,7 @@ __× First Add Me To Your Group..
 • `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotEnjoy_group")
               ]]
           )
       )
